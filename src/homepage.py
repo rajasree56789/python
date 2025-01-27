@@ -1,4 +1,4 @@
-from testing.generic import SeleniumWrapper
+from src.generic import SeleniumWrapper
 class HomePge:
     def __init__(self,driver):
         self.driver=driver
